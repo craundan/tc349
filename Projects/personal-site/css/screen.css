@@ -6,14 +6,14 @@ h1 { font-size: 3em;
 	color: #06C;
 	font-style: italic;
 	border-top: 4px solid #06C;
-	background-color:#AEEEEE;
+	background-color: #b1feff;
 	margin: 0 0 20px 0;
 	text-shadow: 1px 1px 2px #424242;
 	padding: 5px 0px;
 	}
 	
 h2{ 
-		color: #AEEEEE;
+		color: #b1feff;
 		font-style: bold;
 		background-color: #06C;
 		padding: 5px;
@@ -45,7 +45,9 @@ clear: left;}
 
 body {
 	margin: 0;
-	background:#C3E3FF url('../images/tile.png') repeat-x left top;
+	background:url('../images/tile.png'), url('../images/arches.png');
+	background-position:top-left, top-left;
+	background-repeat: repeat-x, repeat;
 	}
 
 li{margin-left: 40px;
@@ -61,16 +63,17 @@ line-height: 1.2em;}
 
 .navbar{
 	list-style-type:none;
-	margin:0;
+	margin:10px;
 	padding:0;
 }
 .navbutton{
 	display:inline;
 	font-size:1.5em;
-	padding:10px;
+	padding-bottom:10px;
 	margin:0;
 	font-family: courier, sans-serif;
 	text-decoration: none;
+	float:left;
 	
 }
 .navlink{
@@ -80,3 +83,58 @@ padding: 5px;
 }
 a:hover {color:black;
 	background-color: #424242;}
+	
+bl {
+	list-style: none; /* Removes default bullets. */
+	}
+
+bl li {
+	padding-left: 0px; /* Indents list items, leaving room for background image on the left. */
+	background: url('../images/loop.png') 0 0 no-repeat;
+	padding-bottom: 20px;
+	}
+	
+	
+	
+	
+	
+	article {
+	width: 220px;
+	padding: 10px;
+	margin: 10px;
+	float: left;
+	background: #f3f3f3;
+}
+
+footer{
+	clear: both;
+	font-size: 12px;
+	border-top: solid;
+	border-color: #06C;
+	border-width:5px;
+	padding: 3px;
+	text-align: center;
+	
+	 }
+	 
+	 footer p { text-indent: -40px;}
+	
+	img{ width: 200px;}
+	
+	.section portfolio {
+	width: 800px;
+	margin-right:25px;
+	float:left;	
+}
+
+
+.art
+{
+opacity:0.4;
+filter:alpha(opacity=40);
+}
+.art:hover
+{
+opacity:1.0;
+filter:alpha(opacity=100); 
+}
