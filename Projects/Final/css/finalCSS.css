@@ -1,0 +1,165 @@
+h1 {
+	background: url('../images/nametag.png');
+	margin: 0 0 20px 0;
+	padding: 5px 0px;
+	height: 90px;
+	}
+	
+h2{ 
+		color: #b1feff;
+		font-style: italic;
+		background: url('../images/h2.png');
+		padding: 3px;
+		clear: left;
+		text-shadow: 1px 1px 2px #424242;
+		text-align: center;
+		margin: 0;
+
+		}
+h3	{
+	color: #06C;
+		font-style: bold;
+		padding: 5px;
+		clear: center;
+}
+			
+p {
+	margin-left: 40px;
+	text-indent : 40px;
+	color: #4C8173;
+	padding:5px;
+	line-height: 1.2em;
+	 }
+
+a {color:#06C;
+font-style: italic;
+}
+		
+img { float:left;
+margin: 20px;
+clear: left;}
+
+body {
+	margin: 0;
+	background: url('../images/index.png');
+	background-position: top-left;
+	background-repeat: repeat;
+	}
+
+li{ 
+
+}
+
+.container{
+	background:url('../images/fabric_of_squares_gray.png');
+	margin: 0 auto;
+	width: 900px;
+}
+
+.navbar{
+	list-style-type:none;
+	padding:0;
+	float:left;
+	padding-left:20px;
+}
+
+.date { font-size:12px;
+text-align:center;
+text-indent: -40px; }
+
+
+.navbutton{
+	display:inline;
+	font-size: 2em;
+	padding-bottom:10px;
+	margin:1px;
+	font-family: courier, sans-serif;
+	text-decoration: none;
+	float:left;
+	text-align: center;
+	background: url('../images/buttoncap.png'), url('../images/button.png');
+	background-repeat: no-repeat, no-repeat;
+	background-position:right, left;
+}
+
+.navbutton:hover{
+	background: url('../images/buttonhovercap.png'), url('../images/buttonhover.png');
+	background-repeat: no-repeat, no-repeat;
+	background-position:right, left;
+}
+.navlink{
+padding: 5px;
+text-decoration:none;
+}
+a:hover {color:black;}
+	
+bl {
+	list-style: none;
+	padding-top: 10px;
+	float:left;
+	}
+
+bl li {
+	padding-left: 40px;
+	background: url('../images/loop.png') 0 0 no-repeat;
+	padding-bottom: 20px;
+	}
+
+	
+	
+	article {
+	width: 210px;
+	height: 350px;
+	padding: 0px;
+	padding-right:35px;
+	margin: 10px;
+	float: left;
+	background: #f3f3f3;
+}
+
+footer{
+	clear: both;
+	font-size: 12px;
+	border-top: solid;
+	border-color: #5ef1ef;
+	border-width:10px;
+	padding: 3px;
+	text-align: center;
+	
+	 }
+	 
+	 
+	 footer p { text-indent: -40px;}
+	
+	img{ width: 200px;
+	float:left;}
+	
+	.section portfolio {
+	width: 800px;
+	float:left;	
+}
+
+section{
+	width: 550px;
+	float:left;
+}
+
+aside {
+	width: 230px;
+	float: left;
+	background: url('../images/cardboard_flat.png');
+	margin-right:45px;
+	padding-right: 15px;
+}
+
+.art
+{
+opacity:0.7;
+filter:alpha(opacity=70);
+}
+
+.art:hover
+{
+opacity:1.0;
+filter:alpha(opacity=100); 
+}
